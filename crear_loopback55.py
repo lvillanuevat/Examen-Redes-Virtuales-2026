@@ -4,9 +4,9 @@ import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-router_ip = "IP_DEL_CSR"
-username = "cisco"
-password = "cisco"
+router_ip = "192.168.43.200"
+username = "admin"
+password = "Admin123"
 
 url = f"https://{router_ip}/restconf/data/ietf-interfaces:interfaces/interface=Loopback55"
 headers = {

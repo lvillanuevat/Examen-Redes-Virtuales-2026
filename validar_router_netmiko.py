@@ -2,10 +2,10 @@ from netmiko import ConnectHandler
 
 router = {
     "device_type": "cisco_ios",
-    "host": "IP_DEL_CSR",
-    "username": "cisco",
-    "password": "cisco",
-    "secret": "cisco",
+    "host": "192.168.43.200",
+    "username": "admin",
+    "password": "Admin123",
+    "secret": "Admin123",
 }
 
 conexion = ConnectHandler(**router)
